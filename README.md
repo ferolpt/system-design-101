@@ -103,7 +103,7 @@ Whether you're preparing for a System Design Interview or you simply want to und
   - [How does Disney Hotstar capture 5 Billion Emojis during a tournament?](#how-does-disney-hotstar-capture-5-billion-emojis-during-a-tournament)
   - [How Discord Stores Trillions Of Messages](#how-discord-stores-trillions-of-messages)
   - [How do video live streamings work on YouTube, TikTok live, or Twitch?](#how-do-video-live-streamings-work-on-youtube-tiktok-live-or-twitch)
-
+- [Message queue architectures]
 <!-- /TOC -->
 
 ## Communication protocols
@@ -1709,6 +1709,29 @@ Standard protocols for live streaming include:
 - HLS (HTTP Live Streaming): It requires the H.264 or H.265 encoding. Apple devices accept only HLS format.
 - DASH (Dynamic Adaptive Streaming over HTTP): DASH does not support Apple devices.
 - Both HLS and DASH support adaptive bitrate streaming.
+
+Message queue architectures
+
+IBM MQ -> RabbitMQ -> Kafka ->Pulsar
+
+🔹 IBM MQ 
+IBM MQ was launched in 1993. It was originally called MQSeries and was renamed WebSphere MQ in 2002. It was renamed to IBM MQ in 2014. IBM MQ is a very successful product widely used in the financial sector. Its revenue still reached 1 billion dollars in 2020. 
+ 
+🔹 RabbitMQ 
+RabbitMQ architecture differs from IBM MQ and is more similar to Kafka concepts. The producer publishes a message to an exchange with a specified exchange type. It can be direct, topic, or fanout. The exchange then routes the message into the queues based on different message attributes and the exchange type. The consumers pick up the message accordingly. 
+ 
+🔹 Kafka 
+In early 2011, LinkedIn open sourced Kafka, which is a distributed event streaming platform. It was named after Franz Kafka. As the name suggested, Kafka is optimized for writing. It offers a high-throughput, low-latency platform for handling real-time data feeds. It provides a unified event log to enable event streaming and is widely used in internet companies. 
+ 
+Kafka defines producer, broker, topic, partition, and consumer. Its simplicity and fault tolerance allow it to replace previous products like AMQP-based message queues. 
+ 
+🔹 Pulsar 
+Pulsar, developed originally by Yahoo, is an all-in-one messaging and streaming platform. Compared with Kafka, Pulsar incorporates many useful features from other products and supports a wide range of capabilities. Also, Pulsar architecture is more cloud-native, providing better support for cluster scaling and partition migration, etc. 
+ 
+There are two layers in Pulsar architecture: the serving layer and the persistent layer. Pulsar natively supports tiered storage, where we can leverage cheaper object storage like AWS S3 to persist messages for a longer term. 
+
+![image](https://github.com/ferolpt/system-design-101/assets/6351275/c8c92b8b-841f-42bd-b7bf-e52dcc145607)
+
 
 ## License
 
