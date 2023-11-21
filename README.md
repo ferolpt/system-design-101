@@ -1695,9 +1695,9 @@ Standard protocols for live streaming include:
 - DASH (Dynamic Adaptive Streaming over HTTP): DASH does not support Apple devices.
 - Both HLS and DASH support adaptive bitrate streaming.
 
-### Message queue architectures
+## Message queue architectures
 
-IBM MQ -> RabbitMQ -> Kafka ->Pulsar
+IBM MQ -> RabbitMQ -> Kafka -> Pulsar
 
 🔹 IBM MQ 
 IBM MQ was launched in 1993. It was originally called MQSeries and was renamed WebSphere MQ in 2002. It was renamed to IBM MQ in 2014. IBM MQ is a very successful product widely used in the financial sector. Its revenue still reached 1 billion dollars in 2020. 
@@ -1718,6 +1718,4 @@ There are two layers in Pulsar architecture: the serving layer and the persisten
 ![image](https://github.com/ferolpt/system-design-101/assets/6351275/c8c92b8b-841f-42bd-b7bf-e52dcc145607)
 
 
-## License
 
-<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
