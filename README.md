@@ -1,19 +1,4 @@
-<p>
-  <a href="https://blog.bytebytego.com/?utm_source=site"><img src="images/banner.jpg" /> </a>
-</p>
-
-<p align="center">
-  【
-  <a href="https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw">
-    👨🏻‍💻 YouTube
-  </a> | 
-  <a href="https://blog.bytebytego.com/?utm_source=site">
-    📮 Newsletter
-  </a> 】
-</p>
-
-
-# System Design 101
+# System Design 101 (based on ByteByteGo]
 
 Explain complex systems using visuals and simple terms. 
 
@@ -103,7 +88,7 @@ Whether you're preparing for a System Design Interview or you simply want to und
   - [How does Disney Hotstar capture 5 Billion Emojis during a tournament?](#how-does-disney-hotstar-capture-5-billion-emojis-during-a-tournament)
   - [How Discord Stores Trillions Of Messages](#how-discord-stores-trillions-of-messages)
   - [How do video live streamings work on YouTube, TikTok live, or Twitch?](#how-do-video-live-streamings-work-on-youtube-tiktok-live-or-twitch)
-- [Message queue architectures]
+- [Message queue architectures] (#message-queue-architectures)
 <!-- /TOC -->
 
 ## Communication protocols
@@ -1710,7 +1695,7 @@ Standard protocols for live streaming include:
 - DASH (Dynamic Adaptive Streaming over HTTP): DASH does not support Apple devices.
 - Both HLS and DASH support adaptive bitrate streaming.
 
-Message queue architectures
+### Message queue architectures
 
 IBM MQ -> RabbitMQ -> Kafka ->Pulsar
 
